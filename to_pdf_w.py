@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-input_folder = os.path.join(os.path.expanduser('~'), 'Desktop', 'kurabiyem')
+input_folder = os.path.join(os.path.expanduser('~'), 'Desktop', 'willConvert')
 output_folder = os.path.join(os.path.expanduser('~'), 'Desktop', 'Converted')
 
 for root, dirs, files in os.walk(input_folder):
